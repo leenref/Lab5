@@ -48,7 +48,7 @@ public class StudentController {
 
     }
 
-    //theres somthing wrong with the output
+    
     @GetMapping("/honers")
     public ApiResponse honorsCategories() {
         ArrayList<Student> firstHonor = new ArrayList<>();
@@ -93,3 +93,4 @@ public class StudentController {
         return new ApiResponse("Students with above average GPA: " + aboveAverage);
     }
 }
+
